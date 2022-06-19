@@ -14,10 +14,11 @@ module.exports = (req, res) => {
         subject: `New SMS message from: ${req.body.From}`,
         text: req.body.Body,
     };
-    
+
     // Send the email
     sgMail.send(email)
         .then(response => {
-            res.status(200).send(response); //Make sure we return correctly.
+            res.setHeader('Content-Type', 'text/xml');
+            res.status(200).send("<Response></Response >"); //Make sure we return correctly.
         })
 };
