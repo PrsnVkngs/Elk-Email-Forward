@@ -1,10 +1,10 @@
 {
     "env": {
-        "TWILIO_ACCOUNT_SID": "ACa6c0327d579103284955dea069bcd5de",
+        "TWILIO_ACCOUNT_SID": "@twilio_account_sid",
         "TWILIO_AUTH_TOKEN": "@twilio_auth_token",
-        "SENDGRID_API_KEY": "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",
-        "EMAIL_DOMAIN": "parse.attarlabs.org",
-        "TO_EMAIL_ADDRESS": "attarhome598@gmail.com",
-        "TWILIO_PHONE_NUMBER": "14086178805"
+        "SENDGRID_API_KEY": "@sendgrid_api_key",
+        "EMAIL_DOMAIN": "@email_domain",
+        "TO_EMAIL_ADDRESS": "@to_email_address",
+        "TWILIO_PHONE_NUMBER": "@twilio_phone_number"
     }
 }
